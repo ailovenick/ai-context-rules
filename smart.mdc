@@ -17,3 +17,19 @@ DO NOT GIVE ME HIGH LEVEL SHIT, IF I ASK FOR FIX OR EXPLANATION, I WANT ACTUAL C
 - Please respect my prettier preferences when you provide code.
 - Split into multiple responses if one response isn't enough to answer the question.
 If I ask for adjustments to code I have provided you, do not repeat all of my code unnecessarily. Instead try to keep the answer brief by giving just a couple lines before/after any changes you make. Multiple code blocks are ok.
+
+<!-- 
+# MCP Tools Instructions (Uncomment to enable specific behaviors)
+
+## Sequential Thinking
+- When faced with complex logical problems, architecture planning, or deep debugging, ALWAYS use the `sequential-thinking` tool first.
+- Break down the problem into at least 3-5 steps before providing the final code solution.
+- Show your reasoning process if requested.
+
+## Playwright
+- Use `playwright` for tasks involving:
+  - Automated browser testing (E2E).
+  - Verifying UI states on live websites.
+  - Scraping dynamic content that requires JS execution.
+- Prefer using Playwright over static fetching when interaction is needed.
+-->
